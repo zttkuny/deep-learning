@@ -2,8 +2,8 @@ import math
 
 import torch
 
-from multihead_attention import MultiHeadAttention
-from PositionalWiseFFN import *
+from transformer.multihead_attention import MultiHeadAttention
+from transformer.PositionalWiseFFN import *
 from d2l import torch as d2l
 
 class EncoderBlock(nn.Module):
